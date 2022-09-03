@@ -1,0 +1,41 @@
+				HTML
+
+ESTRUTURA DE UMA PÁGINA WEB
+
+<!DOCTYPE html >
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Título da Página</title>
+	</head>
+	<body>
+		<h1>Título Principal</h1>
+		<p>Texto do documento</p>
+	</body>
+</html>
+
+CABEÇALHOS
+
+Para cabeçalhos e títulos devemos usar as tags heading:
+
+<h1>Título 1</h1>
+
+<h2>Título 2</2>
+
+<h3>Título 3</h3>
+
+<h4>Titulo 4</h4>
+
+<h5>Título 5</h5>
+
+<h6>Título 6</h6>
+
+
+PARÁGRAFOS
+
+<p>O rato roeu a roupa do rei de Roma.</p>
+
+
+FORMATAÇÃO DE TEXTOS
+
+
