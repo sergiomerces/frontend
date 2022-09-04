@@ -38,4 +38,121 @@ PARÁGRAFOS
 
 FORMATAÇÃO DE TEXTOS
 
+Negrito - usado para dar destaque a um termo, se for um título ou cabeçalho o recomendado semânticamente é o das tags heading
 
+<strong>texto em negrito</strong>
+
+A tag <strong> substituiu a tag <b> do HTML4
+
+Itálico - usado para dar ênfase em textos de citações de terceiros ou títulos de produções culturais
+
+<em>texto em itálico</em>
+
+A tag <em> substituiu a ta <i> do HTML4
+
+Sublinhado
+
+<u>texto sublinhado</u>
+
+Tachado - usado para mostrar texto suprimido
+
+<del>texto tachado</del>
+
+A tag <del> substituiu a tag <strike> do HTML4
+
+
+LISTA NÃO ORDENADA
+
+Listas de enumeração usadas onde não há relevência de ordem para o item
+
+<ul type="disc">
+	<li>item</li>
+	<li>item</li>
+	<li>item</li>
+</ul>
+
+
+LISTA ORDENADA
+
+<ol type="1">
+	<li>item</li>
+	<li>item</li>
+	<li>item</li>
+</ol>	
+
+
+IMAGEM
+
+<img src="./img/foto.jpg" alt="foto de perfil homem negro de eia idade com ohos castanhos sem barba e sem bigode">
+
+
+LINKS
+
+<a href="http://www.uol.com.br" target="_blank" rel="external">
+
+
+TABELAS
+
+<table>
+	<tr>
+		<th>titulo</th>
+		<th>titulo</th>
+		<th>titulo</th>
+	</tr>
+	<tr>
+		<td>dado</td>
+		<td>dado</td>
+		<td>dado</td>
+	</tr>
+</table>
+
+
+FORMULÁRIO
+
+<form>
+	corpo do formulário
+</form>
+
+Rótulo
+<label>Rótulos</label>
+
+Caixa de texto
+<input type="text" name="txt1" id="txt1">
+
+Botão de rádio
+Botões de rádio devem ter o atributo name com o mesmo valor para que fiquem vinculados, somente um valor pode ser selecionado.
+
+<input type="radio" name="genero" id="gen-masculino"> Masculino
+<input type="radio" name="genero" id="gen-femenino"> Femenino
+
+Caixa de seleção
+<input type="checkbox" name="suco" id="suco"> suco
+<input type="checkbox" name="batata" id="batata"> batata frita
+<input type="checkbox" name="lanche" id="lanche"> lanche
+<input type="checkbox" name="sorvete" id="sorvete"> sorvete
+
+Caixa de combinação
+Caixas de múltipla seleção
+
+Escolha se lanche:
+<select>
+	<option>Mc Burguer</option>
+	<option>MC Cheddar</option>
+	<option>Mc Chiken</option>
+	<option>Mc Fish</option>
+</select>
+
+
+Caixa de texto de múltiplas linhas
+
+Observação:
+<textarea name="observaco" cols="80" rows="5"></textarea>
+
+
+Botão
+
+Para enviar dados
+<input type="submit" value="Enviar">
+
+Para apagar dados
+<input type="reset" value="Limpar">

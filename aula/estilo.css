@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+h1 {
+    color: blue;
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.texto {
+    color: red;
+}
+
+#principal {
+    background-color: silver;
+}
+
+#cabecalho {
+    background-color: green;
+}

@@ -1,0 +1,58 @@
+					CSS
+
+Com o advento do HTML5 todo código relacionado a aparência do documento fica a cargo das folhas de estilo com a linguagem CSS.
+
+O CSS pode ser aplicado:
+
+inline
+	Dentro do documento diretamente na tag HTML
+
+	<p style:"color='red'">Texto em vermelho</p>
+
+embutido
+	Dentro do documento escrito dentro tag <head>
+
+	<head>
+		<style>
+			p {
+				color: red;
+			}
+		</style>
+	</head>
+
+externo
+	Um arquivo externo com extensão .css é vinculado ao documento HTML por meio da tag <link> no <head> da página
+
+	<head>
+		<link src="./css/estilo.css" rel="stylesheet">
+	</head>
+
+A última forma é a mais recomendada como boa prática na atualidade pelo desacoplamento do código. Para edições rápida o segundo caso. A primieira opção, inline, deve ser evitada sempre que possível, a exceção de seu uso é para uma formataão muito específica.
+
+Os estilos CSS pode ser aplicados usando seletores:
+
+TAG
+
+	p {
+		color: red;
+		text-indent: 10px;
+		text-align: justify;
+	}
+
+Classe
+
+A classe é um seletor definido no hatml pelo atributo class="classe" em cada tag HTML onde se quer aplicar o estilo, no CSS usa-se o "." (ponto)
+
+	<p class="texto">Texto que será formatado pelo CSS</p>
+
+	.texto {
+		text-indent: 10px;
+		text-align: justify;
+	}
+
+ID
+
+De forma análoga à classe usaos o atributo id="id-elemento" no código HTML e no CSS usamos "#" (hashtag) no lugar do ponto.
+
+
+Atenção: Só podemos ter um único ID para cada tag, contudo podemos ter várias classes para a mesma tag.
