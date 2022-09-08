@@ -16,25 +16,33 @@ main {
 }
 
 nav {
-    background-color: rgb(168, 164, 164);
-    padding: 20px;
+    background-color: #c5c5b2;
+    color: #4b566a;
     font-size: 1.5em;
-    color: rgba(0, 0, 0, 0.616);
+    padding: 18px;
+}
+
+.link-menu {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
 }
 
 h1 {
     color: rgb(126, 118, 118);
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 article {
     background-color: whitesmoke;
+    padding: 10px;
 }
 
 .texto {
     text-align: justify;
     text-indent: 15px;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 footer {
