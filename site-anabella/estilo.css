@@ -42,7 +42,13 @@ article {
 .texto {
     text-align: justify;
     text-indent: 15px;
-    padding-bottom: 10px;
+    padding: 10px;
+}
+
+.campanha {
+    display: block;
+    border: 8px solid #c3c3a0;
+    margin: 0 auto;
 }
 
 footer {
