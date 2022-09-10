@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    font: normal 1rem Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 16px;
+}
+
+header {
+    background-color: rgb(255, 207, 74);
+    padding: 20px;
+    text-align: center;
+}
+
+#titulo-tec {
+    color: rgba(0, 0, 0, 0.514);
+}
+
+#titulo-blog {
+    color: white;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.menu {
+    display: inline;
+    padding: 15px;
+}
+
+.menu-principal {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.menu-principal:visited {
+    color: white;
+}
+
+.menu-principal:hover {
+    color: green;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.menu-principal:active {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+}
+
+article {
+    float: left;
+    width: 640px;
+}
+
+.publicacao {
+    margin: 20px 0 20px 0;
+    float: left;
+}
+
+footer {
+
+}
+
+aside {
+    float: right;
+    width: 260px;
+}
+
+.clear {
+    clear: both;
+}
