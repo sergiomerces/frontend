@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatando Links com CSS</title>
+    <style rel="stylesheet">
+        a {
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+
+        /* links não visitados */
+        a:link, a:visited {
+            color: #b9c941;
+        }
+
+        /* ao sobrevoar */
+        a:hover {
+            color: #FFFFFF;
+            background: #6d790f;
+        }
+
+        /* quando clicado */
+        a:active {
+            color: #e4f371;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com.br" target="_blank" rel="external" title="Portal do Google">Google</a> |
+    <a href="https://www.msn.com.br" target="_blank" rel="externl" title="Portal MSN">MSN</a> |
+    <a href="https://www.megacurioso.com.br" target="_blank" rel="externl" title="Portal Mega Curioso">Mega Curioso</a>
+</body>
+</html>
