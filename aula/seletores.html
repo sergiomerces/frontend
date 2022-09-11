@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores CSS</title>
+    <style rel="stylesheet">
+
+        /*
+        seletor universal
+        seleciona todos elementos da página
+        {
+            border: 1px solid red;
+        }
+
+        seletor de texto
+        selecionaa todas as tags correspondentes
+        h1 {
+            color: green;
+        }
+
+        seletor de classe
+        seleciona qualquer tag com a clsse verde
+        .verde {
+            color: green;
+        }
+
+        seleciona somente as tags p com classe verde
+        p.verde {
+            color: green;
+        }
+        */
+
+        /*seletor de id*/
+        #cabecalho {
+            border: 1px solid blue;
+        }
+
+        /* seletor  elemento filho direto (child) */
+        /* seleciona somente as tags a dentro das tags li*/
+        li > a {
+            color: red;
+            text-decoration: none;
+        }
+
+        /* seletor elementos descendentes */
+        /* seleciona somente as tags a dentro das tags p meso que estejam aninhadas em outas tags*/
+        p a {
+            color: green;
+        }
+
+        /* seletor elementos irmãos */
+        /* seleciona o primeiro elemento (tag) após o elemento especificado*/
+        h1 + p {
+            color: red;
+        }
+
+        /* seletor irmãos geral */
+        /* seleciona todas as tags irmãs do elemento especificado*/
+        h2 ~ p {
+            color: coral;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">Sobre</a>
+        </li>
+    </ul>
+    <a href="#"></a>
+    <div id="cabecalho">
+        <h1>Título da página</h1>
+        <p>Parágafo 1 da página</p>
+        <p>Parágafo 2 da página</p>
+    </div>
+    <span class="verde">Teste span</span>
+    <p>
+        <em><a href="#">Clique aqui!</a></em>
+    </p>
+    <p class="verde">Teste páragrafo</p>
+    <div>
+        <h2>Seletores irmãos</h2>
+        <p>Páragrafo 0.</p>
+        <p>Páragrafo 1.</p>
+        <p>Páragrafo 2.</p>
+    </div>
+</body>
+</html>
