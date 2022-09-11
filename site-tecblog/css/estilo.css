@@ -37,7 +37,7 @@ nav {
     padding: 15px;
 }
 
-.menu-principal {
+.menu-principal:link {
     color: white;
     font-weight: bold;
     font-size: 1.2rem;
@@ -71,10 +71,38 @@ article {
 }
 
 .publicacao {
-    background-color: rgb(233, 230, 230);
+    background-color: whitesmoke;
     margin: 5px 0 20px 0;
     padding: 5px;
     text-align: justify;
+}
+
+hgroup > h2 {
+    color: rgb(255, 207, 74);
+}
+
+img {
+    margin-top: 20px;
+}
+
+.leia:link, .leia:visited  {
+    color: rgb(255, 207, 74);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.leia:hover  {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.leia:active  {
+    background-color: white;
+    color: crimson;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .caixa {
@@ -91,8 +119,6 @@ article {
 p {
     padding: 5px;
 }
-
-
 
 aside {
     float: right;
