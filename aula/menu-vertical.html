@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Construindo um Menu Lateral</title>
+		<style rel="stylesheet">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				background-color: white;
+				color: black;
+				font: normal, 16px, "Times New Roman", serif;
+			}
+			
+			nav {
+				background-color: yellow;
+				padding: 0;
+				width: 200px;
+			}
+			
+			a {
+				color: black;
+				font-size: 1.2em;
+				font-weight: bold;
+				text-decoration: none;
+			}
+			
+			a:link, a:visited {
+				color: black;
+			}
+			
+			a:hover {
+				background-color: orange;
+				color: white;
+				display: block;
+				padding: 10px 0;
+			}
+			
+			a:active {
+				color: blue;
+			}
+			
+			ul {
+				list-style-type: none;
+			}
+			
+			li {
+				padding: 10px 3px;
+			}
+		
+		</style>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="#" target="_self" rel="next">Home</a></li>
+				<li><a href="#" target="_self" rel="next">Sobre</a></li>
+				<li><a href="#" target="_self" rel="next">Serviços</a></li>
+				<li><a href="#" target="_self" rel="next">Notícias</a></li>
+				<li><a href="#" target="_self" rel="next">Contato</a></li>
+			</ul>
+		</nav>
+	</body>
+</html>
