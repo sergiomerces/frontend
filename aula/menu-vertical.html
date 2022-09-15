@@ -18,14 +18,20 @@
 			nav {
 				background-color: yellow;
 				padding: 0;
-				width: 200px;
+				width: 400px;
 			}
 			
 			a {
+				display: block;
+				width: 400px;
+				height: 40px;
 				color: black;
 				font-size: 1.2em;
 				font-weight: bold;
 				text-decoration: none;
+				background-image: url(./img/seta.png);
+				background-repeat: no-repeat;
+				background-position: left center;
 			}
 			
 			a:link, a:visited {
@@ -35,7 +41,6 @@
 			a:hover {
 				background-color: orange;
 				color: white;
-				display: block;
 				padding: 10px 0;
 			}
 			
@@ -45,22 +50,23 @@
 			
 			ul {
 				list-style-type: none;
+				margin: 0;
+				padding: 0;
 			}
 			
-			li {
-				padding: 10px 3px;
-			}
+
+			/*O Firefox 91.13.0 não renderiza o background usando shorthand*/
 		
 		</style>
 	</head>
 	<body>
 		<nav>
 			<ul>
-				<li><a href="#" target="_self" rel="next">Home</a></li>
-				<li><a href="#" target="_self" rel="next">Sobre</a></li>
-				<li><a href="#" target="_self" rel="next">Serviços</a></li>
-				<li><a href="#" target="_self" rel="next">Notícias</a></li>
-				<li><a href="#" target="_self" rel="next">Contato</a></li>
+				<li><a href="#" target="_self" rel="next" title="Página inicial">Home</a></li>
+				<li><a href="#" target="_self" rel="next" title="Saiba mais sobre a organiação">Sobre</a></li>
+				<li><a href="#" target="_self" rel="next" title="Conheça nossos serviços">Serviços</a></li>
+				<li><a href="#" target="_self" rel="next" title="Nosso blog">Notícias</a></li>
+				<li><a href="#" target="_self" rel="next" title="Fale conosco!">Contato</a></li>
 			</ul>
 		</nav>
 	</body>
