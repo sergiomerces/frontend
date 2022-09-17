@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construindo um Menu Horizontal</title>
+    <style rel="stylesheet">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font: normal 16px "Times New Roman";
+        }
+
+        nav {
+            margin-top: 30px;
+        }
+
+        ul {
+            float:left;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            font-size: 1.5em;
+        }
+
+        li {
+            float: left;
+            background-image: linear-gradient(rgb(49, 156, 170), rgb(47, 214, 219), rgb(49, 156, 170));
+            padding: 10px 10px;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border: 1px solid black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:link, a:visited {
+            color: azure;
+            font-weight: bold;
+        }
+
+        /*e preciso fazer o juste no hover sobre todo li*/
+
+        a:hover {
+            background-color: rgb(116, 228, 243);
+            color: black;
+            padding: 15px;
+        }
+
+        a:active {
+            color: crimson;
+            background-image: linear-gradient(rgb(49, 156, 170), rgb(47, 214, 219), rgb(49, 156, 170));
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Home</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="#" target="_self" rel="next">Home</a>
+            </li> 
+            <li>
+                <a href="#" target="_self" rel="next">Sobre</a>
+            </li>
+            <li>
+                <a href="#" target="_self" rel="next">Serviços</a>
+            </li>
+            <li>
+                <a href="#">Notícias</a>
+            </li>
+            <li>
+                <a href="#">Contato</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
