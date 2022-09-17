@@ -65,3 +65,18 @@ A tag <div> é um elemento de nível bloco, ou seja, por padrão ela ocupa toda 
 P <span> funciona como a div para receber estilos CSS por meio de seletores class e id, contudo ele ocupa horizontalmente apenas o espaço necessário para a exibição do seu conteúdo e não ocupando a linha toda por padrão como a div.
 
 Ambas tags são usadas para a organização do lay-out do conteúdo.
+
+
+DISPLAY (INLINE/BLOCK/INCLINE-BLOCK)
+
+Existem lementos HTML que pdem ser do tipo block ou in-line.
+
+Block:  elemento ocupa todo o espaço horizontal, impedindo que outro elemento fique ao seu lado. Ex.: H1
+
+Inline: o elemento só ocupa o espaço horizontal necessário, permitindo que outro elemento se alinhe ao seu lado se houver espaço
+
+A propriedade CSS display: block/inline/inline-block ltera esse comportamento
+
+
+
+BACKGROUND
