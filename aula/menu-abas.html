@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu com Abas</title>
+    <style rel="stylesheet">
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li {
+            float: left;
+            padding: 0 1px;
+        }
+
+        /* verificar como deixar todas as abas iguais no comprimento */
+
+        a {
+            background-color: orangered;
+            color: white;
+            font: bold 1.2em Arial, Verdana, sans-serif;
+            text-decoration: none;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 15px 15px 0 0;
+        }
+
+        a:link, a:visited {
+            color: white;
+        }
+
+        a:hover{
+            background-color: orange;
+            color: black;
+            font-size: 2em;
+        }
+
+        a:active {
+            color: chartreuse;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>Home</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>  
+            <li><a href="#">Sobre</a></li>   
+            <li><a href="#">Serviços</a></li>   
+            <li><a href="#">Notícias</a></li>   
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="clear"></div>
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nobis aspernatur qui ullam nemo sint quo, animi, magni veritatis provident accusamus! Iste at labore nostrum rem obcaecati nihil repellendus corrupti.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum saepe, necessitatibus ullam reprehenderit sunt expedita quod ipsam ipsa natus placeat repudiandae voluptatem magnam quos, tempore iusto facere aspernatur maxime! Quam.</p>
+    </article>
+</body>
+</html>
