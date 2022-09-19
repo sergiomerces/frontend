@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Fixo</title>
+    <style rel="stylesheet">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: pink;
+            font: normal 16px Ubuntu, Verdana, sans-serif;
+        }
+
+        main {
+            background-color: silver;
+            width: 720px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: aqua;
+        }
+
+        nav {
+            float: left;
+            background-color: darkkhaki;
+            width: 180px;
+        }
+
+        nav > ul{
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+
+        article {
+            float: right;
+            background-color: white;
+            width: 520px;
+        }
+
+        section {
+            float: left;
+            width: 320px;
+        }
+
+        aside {
+            float: right;
+            background-color: rgb(182, 121, 240);
+            width: 180px;
+        }
+
+        footer {
+            clear: both;
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>SCMTech</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+                <li>
+                    <a href="#">Notícias</a>
+                </li>
+                <li>
+                    <a href="#">Produtos</a>
+                </li>
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+                <li>
+                    <a href="#">Clientes</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <article>
+            <section>
+                <div>
+                    <h2>Lorem ipsum dolor, sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat sequi eius eveniet iure similique nihil blanditiis, ipsum animi omnis consectetur reprehenderit minus mollitia quaerat. Voluptate explicabo id delectus in?</p>
+                </div>
+                <div>
+                    <h2>Lorem ipsum dolor, sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat sequi eius eveniet iure similique nihil blanditiis, ipsum animi omnis consectetur reprehenderit minus mollitia quaerat. Voluptate explicabo id delectus in?</p>
+                </div>
+            </section>
+            <aside>
+                <h3>Lorem ipsum dolor, sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa modi exercitationem reiciendis illo veniam et sed? Dolorum, dignissimos illo beatae minima voluptatem ullam aspernatur commodi cumque provident nostrum a est!</p>
+            </aside>
+        </article>
+        <footer>
+            &COPY; SCMTech - 2022<br>
+            Todos os direitos reservados.
+        </footer>
+    </main>
+</body>
+</html>
