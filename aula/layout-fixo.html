@@ -23,16 +23,21 @@
 
         header {
             background-color: aqua;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
         }
 
         nav {
             float: left;
             background-color: darkkhaki;
             width: 180px;
+            height: 333px;
         }
 
         nav > ul{
             list-style-type: none;
+            padding: 10px;
         }
 
         a {
@@ -49,17 +54,34 @@
         section {
             float: left;
             width: 320px;
+            padding: 0 10px;
+        }
+
+        section > div > h2 {
+            margin-top: 10px;
+        }
+
+        section > div > p {
+            margin-top: 5px;
         }
 
         aside {
             float: right;
             background-color: rgb(182, 121, 240);
             width: 180px;
+            height: 333px;
+        }
+
+        aside > h3, p {
+            padding: 10px;
+            text-align: justify;
         }
 
         footer {
             clear: both;
             background-color: darkorange;
+            text-align: center;
+            padding: 10px 0;
         }
     </style>
 </head>
@@ -103,6 +125,7 @@
                     <h2>Lorem ipsum dolor, sit amet</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat sequi eius eveniet iure similique nihil blanditiis, ipsum animi omnis consectetur reprehenderit minus mollitia quaerat. Voluptate explicabo id delectus in?</p>
                 </div>
+                <br>
             </section>
             <aside>
                 <h3>Lorem ipsum dolor, sit amet</h3>
