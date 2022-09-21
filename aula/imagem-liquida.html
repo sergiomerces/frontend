@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout Líquido</title>
+    <title>Imagem Líquida</title>
     <style rel="stylesheet">
         * {
             margin: 0;
@@ -22,17 +22,19 @@
         }
 
         header {
-            background-color: aqua;
+            background-image: url(./img/cabecalho2.jpg);
             height: 100px;
+            color: white;
+            font-weight: bolder;
             text-align: center;
             line-height: 100px;
         }
 
         nav {
             float: left;
-            background-color: darkkhaki;
-            width: 25.714%;
-            height: 373px;
+            background-color: silver;
+            width: 22%;
+            padding: 20px;
         }
 
         nav > ul{
@@ -44,16 +46,15 @@
             text-decoration: none;
         }
 
-
         article {
             float: right;
             background-color: white;
-            width: 64%;
+            width: 69%;
         }
 
         section {
             float: left;
-            width: 64%;
+            width: 69%;
         }
 
         section > div > h2 {
@@ -64,11 +65,14 @@
             margin-top: 5px;
         }
 
+        .pic {
+            width: 100%;
+        }
+
         aside {
             float: right;
-            background-color: rgb(182, 121, 240);
-            width: 36%;
-            height: 373px;
+            background-color: silver;
+            width: 25%;
         }
 
         aside > h3, p {
@@ -78,7 +82,6 @@
 
         footer {
             clear: both;
-            background-color: darkorange;
             font: bold 14px "Monospace";
             text-align: center;
             padding: 10px 0;
@@ -119,11 +122,17 @@
             <section>
                 <div>
                     <h2>Lorem ipsum dolor, sit amet</h2>
+                    <div>
+                        <img src="./img/natureza.jpg" class="pic" alt="ilustração do por do sol">
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat sequi eius eveniet iure similique nihil blanditiis, ipsum animi omnis consectetur reprehenderit minus mollitia quaerat. Voluptate explicabo id delectus in?</p>
                 </div>
                 <hr>
                 <div>
                     <h2>Lorem ipsum dolor, sit amet</h2>
+                    <div>
+                        <img src="./img/natureza.jpg" class="pic" alt="ilustração do por do sol">
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat sequi eius eveniet iure similique nihil blanditiis, ipsum animi omnis consectetur reprehenderit minus mollitia quaerat. Voluptate explicabo id delectus in?</p>
                 </div>
                 <br>
