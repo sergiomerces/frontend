@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coluna Falsa</title>
+    <style rel="stylesheet">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font: normal 16px Ubuntu, Verdana, sans-serif;
+        }
+
+        main {
+            width: 85vw;
+            min-width: 720px;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-image: url(./img/cabecalho.jpg);
+            background-repeat: no-repeat;
+            height: 400px;
+            color: white;
+            font-weight: bolder;
+            text-align: center;
+            line-height: 400px;
+        }
+
+        nav {
+            float: left;
+            background-color: silver;
+            width: 22%;
+            padding: 20px;
+        }
+
+        nav > ul{
+            list-style-type: none;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        article {
+            float: right;
+            background-color: white;
+            width: 69%;
+        }
+
+        section {
+            float: left;
+            width: 69%;
+        }
+
+        section > div > h2 {
+            margin-top: 10px;
+        }
+
+        section > div > p {
+            margin-top: 5px;
+        }
+
+        .pic {
+            width: 100%;
+        }
+
+        aside {
+            float: right;
+            background-color: silver;
+            width: 25%;
+        }
+
+        aside > h3, p {
+            padding: 10px;
+            text-align: justify;
+        }
+
+        footer {
+            clear: both;
+            font: bold 14px "Monospace";
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>SCMTech</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+                <li>
+                    <a href="#">Notícias</a>
+                </li>
+                <li>
+                    <a href="#">Produtos</a>
+                </li>
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+                <li>
+                    <a href="#">Clientes</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <article>
+            <section>
+                <div>
+                    <h2>Lorem ipsum dolor, sit amet</h2>
+                    <div>
+                        <img src="./img/natureza.jpg" class="pic" alt="ilustração do por do sol">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat sequi eius eveniet iure similique nihil blanditiis, ipsum animi omnis consectetur reprehenderit minus mollitia quaerat. Voluptate explicabo id delectus in?</p>
+                </div>
+                <hr>
+                <div>
+                    <h2>Lorem ipsum dolor, sit amet</h2>
+                    <div>
+                        <img src="./img/natureza.jpg" class="pic" alt="ilustração do por do sol">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat sequi eius eveniet iure similique nihil blanditiis, ipsum animi omnis consectetur reprehenderit minus mollitia quaerat. Voluptate explicabo id delectus in?</p>
+                </div>
+                <br>
+            </section>
+            <aside>
+                <h3>Lorem ipsum dolor, sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa modi exercitationem reiciendis illo veniam et sed? Dolorum, dignissimos illo beatae minima voluptatem ullam aspernatur commodi cumque provident nostrum a est!</p>
+            </aside>
+        </article>
+        <footer>
+            &COPY; SCMTech - 2022<br>
+            Todos os direitos reservados.
+        </footer>
+    </main>
+</body>
+</html>
