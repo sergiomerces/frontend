@@ -11,32 +11,34 @@
         <form action="post">
             <fieldset>
                 <legend>Detalhes contato</legend>
-                    <p>
+                    <div>
                         <label for="nome">Nome: </label>
                         <input type="text" name="nome" id="nome">
-                    </p>
-                <p>
+                    </div>
+                <div>
                     <label for="email">E-Mail: </label>
                     <input type="email" name="email" id="nome">
-                </p>
-                <p>
+                </div>
+                <div>
                     <label for="url">URL: </label>
                     <input type="text" name="url" id="url">
-                </p>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Comentários</legend>
-                <p>
+                <div>
                     <label for="mensagem">Mensagem: </label>
-                </p>
-                <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea>
+                </div>
+                <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea> 
+            </fieldset>
+            <fieldset>
                 <h3>Lembrar de mim?</h3>
-                <p>
+                <div>
                     <input type="radio" name="lembrar" id="lembrar-sim">Sim
-                </p>
-                <p>
+                </div>
+                <div>
                     <input type="radio" name="lembrar" id="lembrar-nao">Não
-                </p>
+                </div>
             </fieldset>
         </form>
     </main>
