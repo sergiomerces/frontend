@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário : Estilizando</title>
+</head>
+<body>
+    <main>
+        <h2>Estilizando Formulários</h2>
+        <form action="post">
+            <fieldset>
+                <legend>Detalhes contato</legend>
+                    <p>
+                        <label for="nome">Nome: </label>
+                        <input type="text" name="nome" id="nome">
+                    </p>
+                <p>
+                    <label for="email">E-Mail: </label>
+                    <input type="email" name="email" id="nome">
+                </p>
+                <p>
+                    <label for="url">URL: </label>
+                    <input type="text" name="url" id="url">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Comentários</legend>
+                <p>
+                    <label for="mensagem">Mensagem: </label>
+                </p>
+                <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea>
+                <h3>Lembrar de mim?</h3>
+                <p>
+                    <input type="radio" name="lembrar" id="lembrar-sim">Sim
+                </p>
+                <p>
+                    <input type="radio" name="lembrar" id="lembrar-nao">Não
+                </p>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
