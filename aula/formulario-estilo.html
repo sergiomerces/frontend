@@ -4,6 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário : Estilizando</title>
+    <style rel="stylesheet">
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        fieldset {
+            margin: 1em;
+            padding: 1em;
+            border: 1px solid #ccc;
+            background-color: #f8f8f8;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            cursor: pointer;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 27em;
+        }
+
+        textarea {
+            width: 30em;
+            height: 10em;
+        }
+
+        inpu[type="radio"] {
+            width: auto;
+            margin-right: 1em;
+        }
+    </style>
 </head>
 <body>
     <main>
@@ -32,7 +68,7 @@
                 <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea> 
             </fieldset>
             <fieldset>
-                <h3>Lembrar de mim?</h3>
+                <legend>Lembrar de mim?</legend>
                 <div>
                     <input type="radio" name="lembrar" id="lembrar-sim">Sim
                 </div>
