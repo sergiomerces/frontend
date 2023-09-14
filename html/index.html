@@ -13,7 +13,7 @@
     <p>Como boa prática o arquivo de entrada de um site é o "index.html".</p>
 
     <h3>Cabeçalho</h3>
-    <p>São usados como títulos de páginas ou seções internas para organizar o conteúdo os títulos possuem seis níveis dando sentido de importância maior para o h1 e menor para o h6.</p>
+    <p>São usados como títulos de páginas ou seções internas para organizar o conteúdo os títulos possuem seis níveis dando sentido de importância maior para o <strong>&lt;h1&gt;</strong>...<strong>&lt;/h1&gt;</strong> e menor para o <strong>&lt;h6&gt;</strong>...<strong>&lt;/h6&gt;</strong>.</p>
     <h1>Heading1</h1>
     <h2>Heading2</h2>
     <h3>Heading3</h3>
@@ -23,21 +23,91 @@
 
     <hr>
 
+    <h3>Comentário</h3>
+    <p>A tag <strong>&lt;!-- isto é um comentário --&gt;</strong> cria uma linha de comentário, muito utilizado por desenvolvedores para não mostrar ou ignorar um trecho de código como também para apontar informações relevantes para outros desenvolvedores quando forem fazer manutenção no código fonte.</p>
+
+    <hr>
+
     <h3>Linha horizontal</h3>
-    <p>A tag &lt;hr&gt; cria uma linha hrizontal como separador na tela.</p>
+    <p>A tag <strong>&lt;hr&gt;</strong> cria uma linha horizontal como separador na tela.</p>
     
     <hr>
 
     <h3>Quebra de linha</h3>
-    <p>A tag &lt;br&gt; e usada para forçar uma quebra de linha na tela.</p>
+    <p>A tag <strong>&lt;br&gt;</strong> e usada para forçar uma quebra de linha na tela.</p>
 
     <hr>
 
     <h3>Parágrafo</h3>
-    <p>A tag &lt;p&gt;...&lt;/p&gt; é usada para criar parágrafos.</p>
+    <p>A tag <strong>&lt;p&gt;</strong>...<strong>&lt;/p&gt;</strong> é usada para criar parágrafos.</p>
 
     <hr>
 
     <h3>Formatação de texto</h3>
+    
+    <h3>Negrito</h3>
+    <p>A tag <strong>&lt;strong&gt;</strong>...<strong>&lt;/strong&gt;</strong> é usada semânticamente para <strong>dar destaque</strong> a um trecho de texto importante que se quer destacar.</p>
+    <p>Como boa prática deve-se evitar usar as tags &lt;b&gt;...&lt;/b&gt; ou &lt;big&gt;...&lt;/big&gt; para se aplicar essa formatação em negrito</p>
+
+    <h3>Itálico</h3>
+    <p>A tag <strong>&lt;em&gt;</strong>...<strong>&lt;/em&gt;</strong> é usada semânticamente para <em>dar destaque</em> a um trecho de texto normalmente usado para palavras estrangeiras, termos técnicos e citações.</p>
+    <p>Como boa prática deve-se evitar usar as tags &lt;i&gt;...&lt;/i&gt; para se aplicar essa formatação em itálico.</p>
+
+    <h3>Sublinhado</h3>
+    <p>A tag <strong>&lt;ins&gt;</strong>...<strong>&lt;/ins&gt;</strong> é usada semânticamente <ins>para sublinhar</ins> um trecho de texto normalmente indica texto adicionado ao original.</p>
+    <p>Como boa prática deve-se evitar usar as tags &lt;u&gt;...&lt;/u&gt; para se aplicar essa formatação como sublinhado.</p>
+
+    <h3>Tachado</h3>
+    <p>A tag <strong>&lt;del&gt;</strong>...<strong>&lt;/del&gt;</strong> é usada semânticamente <del>para "riscar"</del> um trecho de texto normalmente indica texto removido do original.</p>
+    <p>Como boa prática deve-se evitar usar as tags &lt;s&gt;...&lt;/s&gt; ou &lt;strike&gt;...&lt;/strike&gt; para se aplicar essa formatação em tachado.</p>
+
+    <h3>Marcação</h3>
+    <p>A tag <strong>&lt;mark&gt;</strong>...<strong>&lt;/mark&gt;</strong> é usada semânticamente <mark>para dar o efeito de um marcador</mark> a um trecho de texto.</p>
+    
+    <h3>Small</h3>
+    <p>A tag <strong>&lt;small&gt;</strong>...<strong>&lt;/small&gt;</strong> é usada semânticamente <small>para dar o efeito de letras pequenas</small> similar aos textos de contratos.</p>
+
+    <h3>Superescrito</h3>
+    <p>A tag <strong>&lt;sup&gt;</strong>...<strong>&lt;/sup&gt;</strong> é usada semânticamente para dar o efeito de superescrito como usamos em fómulas matemáticas, x<sup>2</sup>.</p>
+
+    <h3>Subscrito</h3>
+    <p>A tag <strong>&lt;sub&gt;</strong>...<strong>&lt;/sub&gt;</strong> é usada semânticamente para dar o efeito de subscrito como usamos em fómulas químicas, H<sub>2</sub>O.</p>
+
+    <h3>Code</h3>
+    <p>A tag <strong>&lt;code&gt;</strong>...<strong>&lt;/code&gt;</strong> é usada semânticamente para dar o efeito de código fonte.</p>
+    <code>
+        <pre>
+            //caixa de alerta em JavaScript
+            window.alert('Hello World!');
+        </pre>
+    </code>
+
+    <h3>Preformatação</h3>
+    <p>A tag <strong>&lt;pre&gt;</strong>...<strong>&lt;/pre&gt;</strong> é usada para exibir um trecho de texto com a mesma formatação de qual foi digitado.</p>
+    <pre>
+        Batatinha quando nasce,
+        espalha ramas pelo chão.
+        Bebezinho quando dorme,
+        põe a mão no coração.
+    </pre>
+
+    <h3>Citação interna</h3>
+    <p>A tag <strong>&lt;q&gt;</strong>...<strong>&lt;/q&gt;</strong> é usada semânticamente para identificar uma citação interna no prágrafo, colocando-os entre aspas duplas.</p>
+    <p>Outro dia parei para pensar a respeito de um ditado africano, <q>se quiser ir rápido vá sozinho; mas se quiser ir longe vá acompanhado.</q> Comecei a pensar como posso aplicar isso às minhas experiências.</p>
+
+    <h3>Citação longa</h3>
+    <p>A tag <strong>&lt;blockquote&gt;</strong>...<strong>&lt;/blockquote&gt;</strong> é usada semânticamente para identificar uma citação longa, com texto recuado e em fonte menor.</p>
+    <blockquote cite="https://www.pensador.com/frases_marcantes_inspiradoras_martin_luther_king_jr/">Tenho a audácia de acreditar que os povos em todos os lugares podem fazer três refeições por dia para seus corpos, ter educação e cultura para suas mentes e dignidade, igualdade e liberdade para seus espíritos</blockquote>
+
+    <h3>Abreviação</h3>
+    <p>A tag <strong>&lt;abbr&gt;</strong>...<strong>&lt;abbr&gt;</strong> é usada semânticamente para mostrar com um texto em balão o sentido e abreviações, como <abbr title="HiperText Markup Language">HTML</abbr>.</p>
+
+    <h3>Sentido de escrita</h3>
+    <p>A tag <strong>&lt;bdo&gt;</strong>...<strong>&lt;/bdo&gt;</strong> é usada para identificar definir o sentido de escrita de um texto, <bdo dir="rtl">pode ser invertido</bdo>.</p>
+
+    <hr>
+
+    <h3>Link</h3>
+    <p>A tag <strong>&lt;a&gt;</strong>...<strong>&lt;/a&gt;</strong> é usada para criar hiperligação entre partes de uma página ou entre páginas web diferentes.</p>
 </body>
 </html>
