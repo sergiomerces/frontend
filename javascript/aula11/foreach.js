@@ -2,7 +2,7 @@
 função de alta ordem de array
 
 array.forEach(index, item, arrayCompleto);
-uada para iterar/percorrer a lista
+usada para iterar/percorrer a lista
 */
 
 const linguagens = ['HTML', 'CSS', 'JavaScript', 'Nodejs', 'PHP', 'SQL'];

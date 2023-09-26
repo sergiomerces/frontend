@@ -1,3 +1,9 @@
+/*
+função de alta ordem findIndex()
+
+quando não encontra o valor retorna -1
+*/
+
 console.clear();
 
 const pessoas = [
@@ -26,10 +32,7 @@ const pessoas = [
     }
 ];
 
-const buscaNome = pessoas.find((pessoa) => pessoa.nome === 'José');
-const buscaIdade = pessoas.find((pessoa) => pessoa.idade > 25);
+const buscaIdade = pessoas.findIndex((pessoa) => pessoa.idade > 25);
 
-console.log(buscaNome);
 console.log(buscaIdade);
-
 console.table(pessoas);

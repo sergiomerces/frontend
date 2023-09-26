@@ -35,6 +35,7 @@ console.log(resultado);
 /*
 funções de alta ordem com arrays (listas)
 foreach()
+find()
 findIndex()
 ever()
 sum()

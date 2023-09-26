@@ -15,3 +15,5 @@ const { nome, sobrenome, idade } = pessoa;
 console.log(nome);
 console.log(sobrenome);
 console.log(idade);
+
+console.table(pessoa);
