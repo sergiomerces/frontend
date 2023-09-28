@@ -1,0 +1,3 @@
+nome: Sérgio
+idade: 44
+altura: 1.70
