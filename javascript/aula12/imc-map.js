@@ -31,7 +31,7 @@ const pessoa = [
         nome: 'José',
         idade: 6,
         altura: 1.2,
-        peso: 32
+        peso: 15
     }
 ];
 

@@ -1,5 +1,6 @@
 /*
 método que chama a função passada como parâmetro para cada elemento do array e devolve um novo array como resultado do mesmo tamanho que o original
+se eu não retornar nada recebo undefined
 */
 console.clear();
 
