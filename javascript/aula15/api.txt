@@ -1,0 +1,48 @@
+API - Application Programmer Interface
+
+Interface de Programação de Aplicações
+
+É muito comum que aplicações diferentes consumam dados pela internet, muitas vezes dados de terceiros
+
+Como essas aplicações podem estar rodando em diferentes plataformas e linguagens de programação, é importante estabelecer uma "linguagem comum" para que todos consigam consumir esses dados
+
+A API é uma interface que nos permite utilizar funcionalidades/recursos de terceiros, seguindo um conjunto de definições/contratos estabelecidos pelo terceiro
+===========================================================================================
+
+Tipo de API
+
+públicas ou abertas
+privadas ou internas
+APIs de pareiros
+===========================================================================================
+
+Protocolos de APIs
+
+Os protocolos servem para padronizar a troca de dados entre a aplicação e a API
+
+Existem diferentes protocolos de APIs, como RPC, SOAP, GraphQL e REST
+
+O REST é o padrão mais comum
+
+REST - Representational State Tranfer se baseia em seis restrições
+
+1. ter uma arquitetura formada por clientes, servidores e recursos, com solicitações gerenciadas por http
+
+2. estabelecer uma comunicação stateless entre cliente e servidor, nenhuma informação armazenada entre solicitações GET e todas são separadas e desconectadas
+
+3. armazenar dados em cache para otimizar as interações entre cliente servidor
+
+4. interface uniforme para transferência em formato padronizado
+
+5. sistema de camadas organizads
+
+6. possibilitar código sob demanda 
+===========================================================================================
+ 
+Características de APIs REST
+
+os recursos solicitados/enviados via protocolo http
+
+URI base (Base URL)
+
+Formto do dado/recurso

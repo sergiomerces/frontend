@@ -30,7 +30,7 @@ Repoitório de estudos de front-end para aperfeiçoamento de conhecimentos  html
     * Live Peview
     * Live Server
     * Node.js Exec
-    * Omni Theme
+    * Github Theme
     * Material Icon Theme
     * Markdown Preview Github Styling
 
