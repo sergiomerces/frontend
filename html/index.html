@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend - HTML</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Frontend</h1>
@@ -169,12 +170,13 @@
     <audio preload="auto" controls autoplay muted loop>
         <source src="./W-A-Mozart-Symphony-No38-in-D-major-A-Far-Cry.mp3" type="audio/mp3">
     </audio>
-    <audio src="./W-A-Mozart-Symphony-No38-in-D-major-A-Far-Cry.mp3" type="audio/mp3" preload="metadata" controls autoplay muted loop>
 
     <hr>
 
     <h3>Vídeo</h3>
-    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/d6zvSpix0aY?si=ZtyUcFK7guRkmL88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <video width="600" poster="./thumbnail.jpg" controls autoplay>
+        <source src="./animacao.webm" type="video/webm">
+        <source src="./animacao.mp4" type="video/mp4">
+    </video>
 </body>
 </html>
