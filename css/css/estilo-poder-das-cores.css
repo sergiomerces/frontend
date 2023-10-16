@@ -21,6 +21,23 @@ h1, h2 {
     margin-top: 30px;
 }
 
+p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+details {
+    margin: 20px 0;
+}
+
+details > summary {
+    font-style: italic;
+}
+
+ul, ol {
+    margin-left: 40px;
+}
+
 table, tr, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -63,4 +80,136 @@ tr.linha-prata {
 
 td {
     text-align: center;
+}
+
+section#cor-favorita {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+div.cores-favoritas-masculinas,
+div.cores-favoritas-femininas {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+meter {
+    height: 3rem;
+    width: 400px;
+    border: 1px solid black;
+}
+
+/*formatação do meter*/
+meter.azul::-webkit-meter-optimum-value {
+    background: #4040b4;
+}
+
+meter.azul::-moz-meter-bar { 
+    /* Firefox Pseudo Class */
+    background: #4040b4;
+}
+
+meter.verde::-webkit-meter-optimum-value {
+    background: #2f972f;
+}
+
+meter.verde::-moz-meter-bar { 
+    /* Firefox Pseudo Class */
+    background: #2f972f;
+}
+
+meter.preto::-webkit-meter-optimum-value {
+    background: #000000;
+}
+
+meter.preto::-moz-meter-bar { 
+    /* Firefox Pseudo Class */
+    background: #000000;
+}
+
+meter.vermelho::-webkit-meter-optimum-value {
+    background: #c41c1c;
+}
+
+meter.vermelho::-moz-meter-bar { 
+    /* Firefox Pseudo Class */
+    background: #c41c1c;
+}
+
+meter.laranja::-webkit-meter-optimum-value {
+    background: #f1a008;
+}
+
+meter.laranja::-moz-meter-bar { 
+    /* Firefox Pseudo Class */
+    background: #f1a008;
+}
+
+meter.cinza::-webkit-meter-optimum-value {
+    background: #adacac;
+}
+
+meter.cinza::-moz-meter-bar { 
+    /* Firefox Pseudo Class */
+    background: #adacac;
+}
+
+meter.marrom::-webkit-meter-optimum-value {
+    background: #491818;
+}
+
+meter.marrom::-moz-meter-bar { 
+    /* Firefox Pseudo Class */
+    background: #491818;
+}
+
+meter.branco::-webkit-meter-optimum-value {
+    background: #ffffff;
+}
+
+meter.branco::-moz-meter-bar { 
+    /* Firefox Pseudo Class */
+    background: #ffffff;
+}
+
+meter.amarelo::-webkit-meter-optimum-value {
+    background: #ecec05;
+}
+
+meter.amarelo::-moz-meter-bar { 
+    /* Firefox Pseudo Class */
+    background: #ecec05;
+}
+
+meter.roxo::-webkit-meter-optimum-value {
+    background: #5d0386;
+}
+
+meter.roxo::-moz-meter-bar { 
+    /* Firefox Pseudo Class */
+    background: #5d0386;
+}
+
+section#significado-cor {
+    margin: 30px 0;
+    text-align: center;
+}
+
+ul#cor-estimulo > li {
+    padding: 7px 15px;
+    list-style-type: none;
+}
+
+table#cor-idade {
+    width: 100%;
+}
+
+table#cor-idade th, td{
+    padding: 10px;
+}
+
+table#cor-idade td{
+    width: 50%;
 }
