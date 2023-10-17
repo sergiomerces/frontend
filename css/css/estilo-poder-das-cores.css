@@ -204,6 +204,7 @@ ul#cor-estimulo > li {
 
 table#cor-idade {
     width: 100%;
+    margin: 20px 0;
 }
 
 table#cor-idade th, td{
