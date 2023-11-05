@@ -23,6 +23,10 @@ header {
     align-items: center;
 }
 
+h1 {
+    text-shadow: 1px 1px 1px black;
+}
+
 h2, h3 {
     margin-top: 35px;
 }
@@ -38,12 +42,12 @@ h2, h3 {
     gap: 10px;
 }
 
-.container-justify-left {
-    justify-content: left;
+.container-justify-start {
+    justify-content: flex-start;
 }
 
-.container-justify-right {
-    justify-content: right;
+.container-justify-end {
+    justify-content: flex-end;
 }
 
 .container-justify-center {
@@ -61,6 +65,36 @@ h2, h3 {
 .container-justify-evenly {
     justify-content: space-evenly;
 }
+
+.container-align-start {
+    align-items: start;
+}
+
+.container-align-end {
+    align-items: end;
+}
+
+.container-align-center {
+    align-items: center;
+}
+
+.container-align-baseline {
+    align-items: baseline;
+}
+
+.container-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.container-column {
+    flex-direction: column;
+}
+
+.container-column-reverse {
+    flex-direction: column-reverse;
+}
+
+
 
 .item {
     width: 150px;
@@ -94,4 +128,8 @@ h2, h3 {
 
 .item-pink {
     background-color: pink;
+}
+
+hr {
+    margin-top: 60px;
 }
