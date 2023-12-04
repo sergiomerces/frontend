@@ -30,7 +30,7 @@ const pessoas = [
         signo: 'touro',
         idade: 6
     }
-];
+];b
 
 const buscaIdade = pessoas.findIndex((pessoa) => pessoa.idade > 25);
 
