@@ -5,7 +5,7 @@ console.clear();
 /*adiciona elemento a lista*/
 arr.push('Capitão América');
 arr.push('Homem de Ferro', 'Hulk', 'Thor');
-console.log(arr);
+console.table(arr);
 
 /*adicioa elemento ao iníco da lista*/
 arr.unshift('Homem Aranha');

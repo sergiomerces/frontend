@@ -4,11 +4,11 @@ console.clear();
 
 switch(permissoes) {
     case 'aluno':
-        console.log('Você só pode visalizar as aulas.');
+        console.log('Você só pode visualizar as aulas.');
         break;
     case 'professor':
-            console.log('Você só pode alterar as aulas e adicionar exercícios.');
-            break;
+        console.log('Você só pode alterar as aulas e adicionar exercícios.');
+        break;
     case 'admin':
         console.log('Você pode fazer o que quiser no sistema.');
         break;

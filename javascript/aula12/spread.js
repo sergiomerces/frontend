@@ -6,7 +6,7 @@ const pessoa = {
 
 //desestruturação ou spread (operator)
 const pessoaComPeso = {
-    //copia as propriedades do obeto anterior
+    //copia as propriedades do objeto anterior
     ...pessoa,
     //acrescenta a propriedade peso
     peso: 91.2

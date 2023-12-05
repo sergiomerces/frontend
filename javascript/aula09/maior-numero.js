@@ -4,7 +4,7 @@ let maiorNumero = 0;
 let numeroInformado;
 
 for(let i = 0; i <= 5; i++) {
-    numeroInformado = Number(prompt.question('Infomre um número maor que zero: '));
+    numeroInformado = Number(prompt.question('Informe um número maior que zero: '));
 
     if(numeroInformado > maiorNumero) {
         maiorNumero = numeroInformado;

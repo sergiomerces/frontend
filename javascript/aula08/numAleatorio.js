@@ -10,4 +10,3 @@ while(numUsuario !== numAleatorio) {
 }
 
 console.log(`Parabéns o número era ${numUsuario}`);
-
