@@ -29,7 +29,7 @@ function lerArquivoPromise() {
 //entregar a promessa
 lerArquivoPromise()
 .then((retornoDoResolve) => {
-    console.log('Deu certo!:)\n', retornoDoResolve);
+    console.log('Deu certo! :)\n', retornoDoResolve);
 })
 .catch((erro) => {
     console.log('Deu ruim!:(\n', erro);

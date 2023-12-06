@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 //lendo um arquivo um JSON
-fs.readFile('file.json', (erro, dados) => {
+fs.readFile('./file.json', (erro, dados) => {
     if(erro) {
         console.log('Erro:', erro);
     } else {

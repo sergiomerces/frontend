@@ -1,4 +1,4 @@
-/*
+ /*
 JSON - JavaScript Object Notation
     - formação leve de troca de dados
     - para humanos facil de ler e escrever
@@ -16,7 +16,7 @@ JSON - JavaScript Object Notation
     "position": "Quarterback",
     "idade": 24,
     "altura": 1.70,
-    "mvp": true,
+    "mvp": true
 }
 
 //Vantagens do arquivo JSON
