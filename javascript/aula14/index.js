@@ -1,13 +1,13 @@
 const fs = require('fs');
 
 //lendo um arquivo um JSON
-fs.readFile('./file.json', (erro, dados) => {
+fs.readFile('file.json', (erro, dados) => {
     if(erro) {
         console.log('Erro:', erro);
     } else {
         //buffer com dados do arquivo json
-        console.log(JSON.parse(dados));
-        console.log(typeof dados);
+        const dadosObjeto = console.log(JSON.parse(dados));
+        console.log(dadosObjeto);
     }
 });
 
