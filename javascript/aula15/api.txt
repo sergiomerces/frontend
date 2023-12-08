@@ -13,7 +13,7 @@ Tipo de API
 
 públicas ou abertas
 privadas ou internas
-APIs de pareiros
+APIs de parceiros
 ===========================================================================================
 
 Protocolos de APIs
@@ -34,7 +34,7 @@ REST - Representational State Tranfer se baseia em seis restrições
 
 4. interface uniforme para transferência em formato padronizado
 
-5. sistema de camadas organizads
+5. sistema de camadas organizadas
 
 6. possibilitar código sob demanda 
 ===========================================================================================
@@ -45,4 +45,4 @@ os recursos solicitados/enviados via protocolo http
 
 URI base (Base URL)
 
-Formto do dado/recurso
+Formato do dado/recurso

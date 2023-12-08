@@ -19,7 +19,7 @@ async function obterDadosDoCep() {
     } catch (erro) {
         console.error('Deu errado', erro);
     } finally {
-        console.warn("Terminaou a requisição.");
+        console.warn("Terminou a requisição.");
     }
 }
 
