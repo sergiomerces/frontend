@@ -15,3 +15,13 @@ const dias = [5, 10, 15, 20, 30];
 //tipos mistos não são boa prática, mas possíveis
 const num = [];
 const dados = [];
+//tuplas - conjuntos de dados que você sabe que vai ter no array
+const pessoaTupla = ['Sérgio', 44];
+//Objetos
+const pessoa = {
+    nome: 'Sérgio',
+    idade: 44,
+    profissao: 'desenvolvedor',
+    altura: 1.7
+};
+console.log(pessoa.peso);
