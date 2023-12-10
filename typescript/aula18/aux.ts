@@ -26,3 +26,6 @@ const dias:Array<number> = [5, 10, 15, 20, 30];
 const num = [];
 const dados:any[] = [];
 
+//tuplas - conjuntos de dados que você sabe que vai ter no array
+const pessoaTupla:[string, number] = ['Sérgio', 44];
+
