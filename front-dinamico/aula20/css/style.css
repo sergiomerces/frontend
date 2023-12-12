@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+h1, p {
+    margin: 2rem 1rem;
+}
