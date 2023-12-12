@@ -14,3 +14,11 @@ body {
 h1, p {
     margin: 2rem 1rem;
 }
+
+label {
+    margin-left: 2rem;
+}
+
+ul.lista{
+    margin: 0 3rem;
+}
