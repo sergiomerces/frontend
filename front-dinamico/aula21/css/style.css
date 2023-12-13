@@ -16,16 +16,16 @@ button {
     padding: 0.25rem;
     border: 1px solid black;
     border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
     width: 150px;
+    color: white;
 }
 
 button#btn-diminuir {
     margin-left: 2rem;
     background-color: crimson;
-    color: white;
 }
 
 button#btn-aumentar {
     background-color: green;
-    color: white;
 }
