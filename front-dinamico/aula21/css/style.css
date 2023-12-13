@@ -7,7 +7,8 @@
 }
 
 h1, 
-h2 {
+h2,
+input {
     margin: 1rem 2rem;
 }
 
@@ -28,4 +29,12 @@ button#btn-diminuir {
 
 button#btn-aumentar {
     background-color: green;
+}
+
+input {
+    width: 500px;
+    line-height: 1.5;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    padding: 5px 10px;
 }
