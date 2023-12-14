@@ -1,7 +1,48 @@
+const tema = document.querySelector('body');
+const titulo = document.querySelector('h1');
+const botaoMudarTema = document.querySelector('button#btn-mudar-tema');
 const botaoDiminuir = document.querySelector('button#btn-diminuir');
 const botaoAumentar = document.querySelector('button#btn-aumentar');
 const contador = document.querySelector('h2#contador');
 const input = document.querySelector('#input');
+
+let temaDark;
+
+window.onload = () => {
+    const ehTemaDarkStorage = localStorage.getItem('ehTemaDark');
+    
+    temaDark = ehTemaDarkStorage === 'true' ? true : false;
+
+    if(temaDark) {
+        tema.style.backgroundColor = 'black';
+        botaoMudarTema.style.backgroundColor = 'white';
+        botaoMudarTema.style.color = 'black';
+        titulo.style.color = 'white';
+    } else {
+        tema.style.backgroundColor = 'white';
+        botaoMudarTema.style.backgroundColor = 'black';
+        botaoMudarTema.style.color = 'white';
+        titulo.style.color = 'black';
+    }
+}
+
+botaoMudarTema.addEventListener('click', () => {
+    temaDark = !temaDark;
+
+    localStorage.setItem('ehTemaDark', temaDark);
+
+    if(temaDark) {
+        tema.style.backgroundColor = 'black';
+        botaoMudarTema.style.backgroundColor = 'white';
+        botaoMudarTema.style.color = 'black';
+        titulo.style.color = 'white';
+    } else {
+        tema.style.backgroundColor = 'white';
+        botaoMudarTema.style.backgroundColor = 'black';
+        botaoMudarTema.style.color = 'white';
+        titulo.style.color = 'black';
+    }
+});
 
 botaoDiminuir.addEventListener('click', (event) => {
     const valorAtual = Number(contador.textContent);
