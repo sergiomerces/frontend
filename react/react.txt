@@ -1,0 +1,50 @@
+
+O ReactJS pode formar outras bibliotecas como:
+
+- React DOM
+- React Native
+- Electron
+- Ract TV
+- React VR
+
+Assistir no Youtube documentário ReactJS.
+
+O React trabalha com componentes. 
+
+A ideia do React é que você construa uma aplicação grande e complexa de forma escalável a
+partir de blocos componentizados.
+
+============================================================================================
+
+Como o ReactJS funciona?
+
+Compilers
+O compildor que faz a conversão de código, ele permite que na escrita do código por exemplo,
+usemos os recursos mais novos das features que ele vai traduzir para uma versão  
+
+const prompt = require('readline-sync);
+
+ pode ser escrita de uma forma mais nova
+
+import prompt from 'readline-sync';
+
+Para importar qualquer coisa:
+
+import { funcao1, funcao2 } from './exemplo';
+
+ No HTML temos que usar o type module
+
+<script type="module" src="./exemplo.js"></script>
+
+No arquivo de configuração do TS trocar em moddule, commom JS por ES6 e o arquivo te que ter a
+extensão .js na importação.
+
+==============================================================================================
+
+CRIADO UM PROJETO REACT 
+
+$ npx create react-app <projeto>
+
+$ npm start
+
+No diretório Public o arquivo index.html é o nosso ponto de entrada pricipal do projeto.
