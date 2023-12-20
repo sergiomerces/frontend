@@ -1,4 +1,5 @@
 
+
 O ReactJS pode formar outras bibliotecas como:
 
 - React DOM
@@ -48,3 +49,7 @@ $ npx create react-app <projeto>
 $ npm start
 
 No diretório Public o arquivo index.html é o nosso ponto de entrada pricipal do projeto.
+
+Remover os arquivos de src exceto app.js e index.js
+
+SPA - single page application
