@@ -53,3 +53,6 @@ No diretório Public o arquivo index.html é o nosso ponto de entrada pricipal d
 Remover os arquivos de src exceto app.js e index.js
 
 SPA - single page application
+
+O App.js é o componente mais importante do projeto, tudo o que colocarmos dentro do return da 
+função será renderizado.
