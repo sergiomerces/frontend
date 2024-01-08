@@ -23,10 +23,7 @@ Repoitório de estudos de front-end para aperfeiçoamento de conhecimentos  html
     * Indent-rainbow
     * Prettier-Code
     * HTML CSS Support
-    * Intellisense for class names in HTML
     * ESlint
-    * Debugger for Firefox
-    * JavaScript (ES6) code snippets
     * Babel JavaScript
     * Live Peview
     * Live Server
