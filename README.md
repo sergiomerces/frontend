@@ -6,6 +6,7 @@ Repoitório de estudos de front-end para aperfeiçoamento de conhecimentos  html
 * CSS3
 * JavaScript
 * NodeJS
+* TypeScript
 
 ## Ambiente
 
